@@ -1,0 +1,23 @@
+body.dark {
+    --background-color-welcome : none;
+}
+
+body.light {
+    --background-color-welcome: rgba(115, 106, 255,0.1);;
+}
+
+.welcome-text {
+    background-color: var(--background-color-welcome);
+    //height: 150px;
+}
+
+#main-text {
+    font-weight: bold;
+    color: rgba(0,157,196,1.00);
+    font-size: 1.1rem;
+}
+
+#sub-text {
+    color: rgba(102, 153, 204, 0.7);
+    width: 70%;
+}

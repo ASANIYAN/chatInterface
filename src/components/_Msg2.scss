@@ -1,0 +1,32 @@
+body.light {
+    --text-color : black;
+    --background-msg1 : rgba(192, 192, 192,0.2);
+}
+
+body.dark {
+    --text-color : white;
+    --background-msg1: #05386b;
+}
+
+.msg2-text {
+    display: flex;
+    justify-content: right;
+    p {
+        color: white;
+        background-color: #0c0032;
+        width: 320px;
+        border-radius: 15px;
+        letter-spacing: 1px;
+    }
+}
+
+
+.user2-hold {
+    width: 40px;
+}
+
+.user2 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transform: translateY(-5px);
+}

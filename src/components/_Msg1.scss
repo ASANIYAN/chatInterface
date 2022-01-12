@@ -1,0 +1,44 @@
+body.light {
+    --text-color : black;
+    --background-msg1 : rgba(192, 192, 192,0.2);
+}
+
+body.dark {
+    --text-color : white;
+    --background-msg1: #05386b;
+}
+
+.msg1-text {
+    text-align: left;
+    width: fit-content;
+    p {
+        background-color: var(--background-msg1);
+        color: var(--text-color);
+        border-radius: 20px;
+        letter-spacing: 1px;
+    }
+
+    .first {
+        width: 100%;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .third {
+        width: 100%;
+    }
+
+}
+
+
+.user1-hold {
+    width: 40px;
+}
+
+.user1 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transform: translateY(-5px);
+}

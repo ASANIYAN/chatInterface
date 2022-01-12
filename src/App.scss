@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@500&display=swap');
+
+body {
+    font-family: 'Karma', serif;
+    background-color: var(--background-color);
+}
+
+body {
+  transition:  0.3s ease-in-out;
+}
+
+body.light {
+  --background-color : white;
+}
+
+body.dark {
+  --background-color : #282828;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@import 'components/Heading';
+@import 'components/Welcome';
+@import 'components/DateTime';
+@import 'components/Msg1';
+@import 'components/Msg2';
+@import 'components/Msg3';
+@import 'components/Msg4';

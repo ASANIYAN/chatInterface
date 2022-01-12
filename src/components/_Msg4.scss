@@ -1,0 +1,36 @@
+body.light {
+    --text-color : black;
+    --background-msg1 : rgba(192, 192, 192,0.2);
+}
+
+body.dark {
+    --text-color : white;
+    --background-msg1: #05386b;
+}
+
+.user4-hold {
+    width: 40px;
+}
+
+.user4 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transform: translateY(-5px);
+}
+
+#msg4 {
+    color: var(--text-color);
+    padding-top: 25px;
+}
+
+.msg4-text {
+    display: flex;
+    justify-content: left;
+
+    p {
+        letter-spacing: 1px;
+        border-radius: 20px;
+        background-color: var(--background-msg1);
+
+    }
+}

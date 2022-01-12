@@ -1,0 +1,37 @@
+body.light {
+    --text-color : black;
+    --background-msg1 : rgba(192, 192, 192,0.2);
+}
+
+body.dark {
+    --text-color : white;
+    --background-msg1: #05386b;
+}
+
+
+#msg3 {
+    color: var(--text-color);
+}
+
+.user3-hold {
+    width: 40px;
+}
+
+.user3 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    transform: translateY(-5px);
+}
+
+.msg3-text {
+    display: flex;
+    justify-content: left;
+}
+
+.thumbs {
+    text-align: center;
+    width: 40px;
+    background-color: var(--background-msg1);
+    height: 35px;
+    border-radius: 7px;
+}

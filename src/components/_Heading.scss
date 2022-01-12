@@ -53,11 +53,11 @@ body.dark {
   }
 
   input:checked + .slider {
-    background-color: #282828;
+    background-color: rgb(24,19,41);
   }
 
   input:focus + .slider {
-    box-shadow: 0 0 1px #282828;
+    box-shadow: 0 0 1px rgb(24,19,41);
   }
 
   input:checked + .slider:before {

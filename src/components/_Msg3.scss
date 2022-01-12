@@ -1,11 +1,11 @@
 body.light {
     --text-color : black;
-    --background-msg1 : rgba(192, 192, 192,0.2);
+    --background-msg3 : rgb(248,248,249);
 }
 
 body.dark {
-    --text-color : white;
-    --background-msg1: #05386b;
+    --text-color : rgb(109,106,123);
+    --background-msg3: rgb(25,24,42);
 }
 
 
@@ -31,7 +31,7 @@ body.dark {
 .thumbs {
     text-align: center;
     width: 40px;
-    background-color: var(--background-msg1);
+    background-color: var(--background-msg3);
     height: 35px;
     border-radius: 7px;
 }

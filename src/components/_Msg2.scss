@@ -1,11 +1,11 @@
 body.light {
     --text-color : black;
-    --background-msg1 : rgba(192, 192, 192,0.2);
+    --background-msg2 : rgba(103,73,220);
 }
 
 body.dark {
     --text-color : white;
-    --background-msg1: #05386b;
+    --background-msg2: rgb(77,56,152);
 }
 
 .msg2-text {
@@ -13,7 +13,7 @@ body.dark {
     justify-content: right;
     p {
         color: white;
-        background-color: #0c0032;
+        background-color: var(--background-msg2);
         width: 320px;
         border-radius: 15px;
         letter-spacing: 1px;

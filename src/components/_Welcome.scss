@@ -3,7 +3,7 @@ body.dark {
 }
 
 body.light {
-    --background-color-welcome: rgba(115, 106, 255,0.1);;
+    --background-color-welcome: rgba(249, 252, 254,);;
 }
 
 .welcome-text {
@@ -13,11 +13,11 @@ body.light {
 
 #main-text {
     font-weight: bold;
-    color: rgba(0,157,196,1.00);
+    color: rgb(133,192,245);
     font-size: 1.1rem;
 }
 
 #sub-text {
-    color: rgba(102, 153, 204, 0.7);
+    color: rgba(172,196,218);
     width: 70%;
 }

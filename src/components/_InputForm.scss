@@ -12,6 +12,10 @@ body.dark {
     --border-colour: rgb(32,28,47);
 }
 
+.input-hold {
+    width: 100%;
+}
+
 .msgInput {
     color: var(--placeholder-color);
     background-color: var(--input-bg);
@@ -34,4 +38,10 @@ body.dark {
 .msgInput:focus {
     background-color:  var(--input-bg);
     border: none;
+  }
+
+  .share {
+      transform: scale(1.5);
+      color: var(--icon-color);
+      transform: translateX(-10px);
   }

@@ -1,0 +1,37 @@
+body.light {
+    --icon-color : rgb(101, 83, 223);
+    --placeholder-color :rgb(113,113,113);
+    --input-bg: rgb(255,255,255);
+    --border-colour: rgb(243,241,251);
+}
+
+body.dark {
+    --icon-color : rgb(101, 83, 223);
+    --placeholder-color :rgb(113,110,125);
+    --input-bg: rgb(24,19,41);
+    --border-colour: rgb(32,28,47);
+}
+
+.msgInput {
+    color: var(--placeholder-color);
+    background-color: var(--input-bg);
+    border: thin solid var(--border-colour);
+}
+
+.msgInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--placeholder-color);
+    opacity: 1; /* Firefox */
+  }
+
+.msgInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--placeholder-color);
+  }
+
+.msgInput::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--placeholder-color);
+  }
+
+.msgInput:focus {
+    background-color:  var(--input-bg);
+    border: none;
+  }
